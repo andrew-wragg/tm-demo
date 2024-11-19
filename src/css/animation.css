@@ -1,0 +1,117 @@
+/* Classes for animating elements on the page */
+
+/* The following classes can be added to html elements to set their initial state, before animation. */
+.from-bottom {
+    transform: translateY(60%);
+}
+
+.from-left {
+    transform: translateX(-65%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.from-far-left {
+    transform: translateX(-2500%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.from-right {
+    transform: translateX(65%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.from-far-right {
+    transform: translateX(2500%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.video {
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.blur {
+    filter: blur(50px);
+}
+
+/* the active class is dynamically added to elements when they are in the viewport, animating them into position */
+.active {
+    opacity: 1;
+    transform: translateY(0) translateX(0);
+    filter: blur(0px);
+    transition: all 1s ease-out;
+}
+
+/* The following classes are used for the onload animation in the main section */
+.on-load {
+    opacity: 0;
+    transform: translateX(65%);
+}
+
+
+.on-load-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1.2s ease-out;
+}
+
+.circle {
+    background-color: #024ddf;
+    border-radius: 50%;
+    width: 13%;
+    position: absolute;
+    
+  }
+
+.circle:before {
+    content: "";
+    display: block;
+    padding-top: 100%;    /* initial ratio of 1:1*/
+}
+
+.circle1 {
+    bottom: 20%;
+    right: 20%;
+    z-index: 3;
+}
+
+.circle2 {
+    bottom: 20%;
+    right: 34%;
+    z-index: 3;
+}
+
+.circle3 {
+    bottom: 10%;
+    left: 20%;
+}
+
+.circle4 {
+    bottom: 10%;
+    left: 34%;
+}
+
+.circle5 {
+    bottom: 70%;
+    left: 70%;
+}
+
+.circle6 {
+    bottom: 70%;
+    left: 84%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .circle {
+        width: 13%;
+    }
+
+
+}

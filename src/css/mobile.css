@@ -1,0 +1,132 @@
+@media screen and (max-width: 800px) {
+
+    section-inner-container {
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+  
+    left-container, right-container {
+      width: 100%;
+    }
+  
+    p {
+      padding: 3.5%;
+      text-align: left;
+    }
+  
+    header {
+      top: 27px;
+      left: 50%;
+      margin-left: -120px;
+    }
+  
+  
+    .section-main section-inner-container {
+      height: calc(100vh - 58px);
+      top: 58px;
+    }
+  
+    .section-main left-container,  .section-main right-container {
+      z-index: auto;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      flex: 1;
+    }
+  
+    .section-main right-container {
+      flex: 2;
+    }
+  
+    .section-main right-container img {
+      width: 68%;
+      left: auto;
+      top: auto;
+    }
+  
+    .section-main h1 {
+      font-size: 28px;
+      max-width: 325px;
+      left: 0;
+      margin: 25px;
+      line-height: 28px;
+      letter-spacing: -1px;
+    }
+
+  
+    .section-main p {
+      font-size: 18px;
+      line-height: 20px;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .section-main .category {
+      padding: 10px;
+      text-align: left;
+      left: 0;
+    }
+
+    .section-main .author {
+      left: 0px;
+    }
+
+    .section-split {
+      height: auto;
+    }
+
+    .section-split left-container {
+      height: 100vh;
+    }
+
+    .booking-container h2 {
+      font-size: 24px;
+    }
+
+    .booking-container hr {
+      padding: 0px;
+    }
+
+    .booking-container {
+      margin: 20px;
+     }
+  
+  
+    .section-split p, .section-single p {
+      font-size: 18px;
+      line-height: normal;
+    }
+  
+    .section-split left-container p {
+      padding: 40px;
+    }
+
+    .section-center-text p {
+      font-size: 16px;
+      padding: 40px;
+    }
+  
+  
+    .section-tips {
+      min-height: 2600px;
+    }
+  
+    .section-tips p {
+      font-size: 16px;
+      line-height: 18px;
+      padding: 10px 30px;
+    }
+
+    .section-tips h3 {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 10px 30px;
+    }
+  
+    .section-video video {
+      width: 100%;
+    }
+  
+  
+  }

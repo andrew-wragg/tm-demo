@@ -1,0 +1,362 @@
+@font-face{
+  font-family: "AvertaStd-Black";
+  src: url("AvertaStd-Black.eot");
+  src: url("AvertaStd-Black.eot?#iefix")format("embedded-opentype"),
+      url("AvertaStd-Black.woff")format("woff"),
+      url("AvertaStd-Black.woff2")format("woff2"),
+      url("AvertaStd-Black.ttf")format("truetype"),
+      url("AvertaStd-Black.svg#AvertaStd-Black")format("svg");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url("averta-regular-webfont.woff2") format("woff2"), url("averta-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Averta';
+  src: url("averta-semibold-webfont.woff2") format("woff2"), url("averta-semibold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+:root {
+  font-family: 'Averta', sans-serif;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 18px;
+  font-synthesis: none;
+  color-scheme: dark light;
+  color: #fff;
+  background-color: #121212;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior:smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: calc(100vw - (100vw - 100%));
+}
+
+img {
+  position: relative;
+  display: block;
+}
+
+header {
+  position: fixed;
+  left: 66px;
+  top: 53px;
+  z-index: 999;
+}
+
+section, footer {
+  z-index: 1;
+  background-color: #121212;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.full-screen-section {
+  height: 100vh;
+  min-height: 750px;
+}
+
+.double-screen-section {
+  height: 260vh;
+  min-height: 1250px;
+}
+
+.half-screen-section {
+  height: 50vh;
+  min-height: 450px;
+}
+
+section-inner-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  max-width: 1920px;
+  position: inherit;
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+left-container,
+right-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.white {
+  background-color: #fff;
+  color: #000;
+}
+
+.section-main {
+  min-height: auto;
+  overflow: hidden;
+}
+
+.section-main section-inner-container {
+  display:block;
+  text-align: center;
+  max-width: 1280px;
+  position: inherit;
+  height: calc(100% - 67px);
+  margin: auto;
+  top: 67px;
+}
+
+.section-main h1 {
+  text-align: left;
+  letter-spacing: -0.25vw;
+  line-height: calc(15px + 5vw);
+  font-size: calc(15px + 5vw);
+  margin: 0;
+  padding: 0;
+  font-family: 'AvertaStd-Black', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  top: 100px;
+  max-width: 933px;
+}
+
+.section-main h1 .underline{
+  text-decoration: underline;
+  text-decoration-color: #024ddf;
+}
+
+.section-main p {
+  max-width: 522px;
+  font-size: calc(15px + 0.5vw);
+  line-height: 30px;
+  text-align: left;
+}
+
+.section-main .category {
+  left: 50px;
+  top: 0;
+  position: absolute;
+}
+
+.section-main .author {
+  left: 50px;
+  bottom: 0;
+  padding-bottom: 10px;
+  position: absolute;
+  filter: drop-shadow(0px 1px 1px #121212);
+  z-index: 10;
+  text-align: left;
+}
+
+.section-main img {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  max-height: 500px;
+}
+
+
+
+
+.section-split p {
+  color: #000;
+  font-weight: 700;
+  font-size: 30px;
+  max-width: 520px;
+  text-align: left;
+}
+
+.section-single section-inner-container {
+  max-width: 800px;
+}
+
+.section-center-text p {
+  max-width: 516px;
+  font-size: 23px;
+  text-align: left;
+}
+
+
+.section-tips {
+  min-height: 1000px;
+}
+
+.section-tips section-inner-container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-tips p {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 120%;
+  margin: 0;
+  padding: 1% 0;
+  text-align: left;
+}
+
+.section-tips h1 {
+  max-width: 600px;
+  line-height: 120%;
+  margin: 0;
+  padding: 1% 0;
+  text-align: left;
+}
+
+.section-tips h2 {
+  font-weight: 700;
+  font-size: calc(15px + 2.1vw);
+  line-height: 120%;
+  max-width: 58vw;
+  text-align: center;
+  font-family: 'AvertaStd-Black';
+  text-transform: uppercase;
+}
+
+.section-tips h3 {
+  max-width: 600px;
+  line-height: 120%;
+  margin: 0;
+  padding: 1% 0;
+  text-align: left;
+}
+
+.section-video {
+  z-index: 0;
+  transform: none!important;
+  filter: none!important;
+}
+
+.section-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.section-video iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.section-video.active {
+  opacity: 1;
+}
+
+
+
+
+.book-button {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #024DDF;
+  font-size: 20px;
+  font-family: 'AvertaStd-Black';
+  padding: 20px 0px 18px 0px;
+  width: 250px;
+  overflow: hidden;
+  transition: all 0.2s linear 0s;
+  margin-top: 30px;
+}
+
+.book-button::before {
+    content: "\25BA";
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    transition: all 0.2s linear 0s;
+  }
+
+.book-button:hover {
+    text-indent: -20px;
+    color: #fff;
+}
+
+.book-button:hover::before {
+      opacity: 1;
+      text-indent: -20px;
+}
+
+.booking-container {
+ background-color: #121212;
+ text-align: center;
+ padding: 40px;
+ margin-right: 50px;
+}
+
+.booking-container h2 {
+  text-transform: uppercase;
+  font-family: 'AvertaStd-Black';
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+
+.booking-container p {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  max-width: none;
+
+}
+
+.booking-container hr {
+  color: #fff;
+}
+
+
+
+@media screen and (min-width: 1366px) {
+
+  .section-main h1 {
+    letter-spacing: -3px;
+    line-height: 77px;
+    font-size: 80px;
+
+  }
+
+}

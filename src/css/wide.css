@@ -1,0 +1,24 @@
+@media (min-width: 1920px) {
+
+    .section-main h1 {
+      font-size: 50px;
+    }
+    
+    .section-main h1 span {
+      letter-spacing: -41px;
+      text-indent: -3.5%;
+      line-height: 400px;
+      font-size: 500px;
+    }
+    .section-main p {
+      font-size: 25px;
+    }
+    
+    .section-split img {
+      max-height: 1239px;
+      max-width: 929px;
+      width: auto;
+    }
+  
+  }
+  
