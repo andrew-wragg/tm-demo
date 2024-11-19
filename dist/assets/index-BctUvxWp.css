@@ -4469,8 +4469,8 @@ right-container {
 .section-main h1 {
   text-align: left;
   letter-spacing: -0.25vw;
-  line-height: calc(15px + 5vw);
-  font-size: calc(15px + 5vw);
+  line-height: calc(0.9rem + 5vw);
+  font-size: calc(0.9rem + 5vw);
   margin: 0;
   padding: 0;
   font-family: 'AvertaStd-Black', sans-serif;
@@ -4520,21 +4520,31 @@ right-container {
 
 
 
-.section-split p {
+.section-split .p {
   color: #000;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.5rem;
   max-width: 520px;
   text-align: left;
 }
 
+
+.section-split left-container p {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.5rem;
+  max-width: 520px;
+  text-align: left;
+  padding: 30px;
+}
+
 .section-single section-inner-container {
-  max-width: 800px;
+  max-width: 700px;
 }
 
 .section-center-text p {
   max-width: 516px;
-  font-size: 23px;
+  font-size: 1.5rem;
   text-align: left;
 }
 
@@ -4550,8 +4560,7 @@ right-container {
 
 .section-tips p {
   max-width: 600px;
-  font-size: 18px;
-  line-height: 120%;
+  font-size: 1rem;
   margin: 0;
   padding: 1% 0;
   text-align: left;
@@ -4567,8 +4576,8 @@ right-container {
 
 .section-tips h2 {
   font-weight: 700;
-  font-size: calc(15px + 2.1vw);
-  line-height: 120%;
+  font-size: calc(0.9rem + 2.1vw);
+  line-height: calc(0.9rem + 2.1vw);
   max-width: 58vw;
   text-align: center;
   font-family: 'AvertaStd-Black';
@@ -4579,7 +4588,7 @@ right-container {
   max-width: 600px;
   line-height: 120%;
   margin: 0;
-  padding: 1% 0;
+  padding: 3% 0 1% 0;
   text-align: left;
 }
 
@@ -4622,7 +4631,7 @@ right-container {
   color: #fff;
   text-transform: capitalize;
   background-color: #024DDF;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-family: 'AvertaStd-Black';
   padding: 20px 0px 18px 0px;
   width: 250px;
@@ -4633,7 +4642,7 @@ right-container {
 
 .book-button::before {
     content: "\25BA";
-    font-size: 15px;
+    font-size: 0.8rem;
     position: absolute;
     display: flex;
     align-items: center;
@@ -4668,13 +4677,13 @@ right-container {
   font-family: 'AvertaStd-Black';
   color: #fff;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.2rem;
 }
 
 .booking-container p {
   color: #fff;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.5rem;
   max-width: none;
 
 }
@@ -4743,7 +4752,7 @@ right-container {
     }
   
     .section-main h1 {
-      font-size: 28px;
+      font-size: 1.5rem;
       max-width: 325px;
       left: 0;
       margin: 25px;
@@ -4753,7 +4762,7 @@ right-container {
 
   
     .section-main p {
-      font-size: 18px;
+      font-size: 1rem;
       line-height: 20px;
       text-align: center;
       padding: 15px;
@@ -4778,7 +4787,7 @@ right-container {
     }
 
     .booking-container h2 {
-      font-size: 24px;
+      font-size: 1.5rem;
     }
 
     .booking-container hr {
@@ -4791,16 +4800,17 @@ right-container {
   
   
     .section-split p, .section-single p {
-      font-size: 18px;
+      font-size: 1rem;
       line-height: normal;
     }
   
     .section-split left-container p {
       padding: 40px;
+      font-size: 1.2rem;
     }
 
     .section-center-text p {
-      font-size: 16px;
+      font-size: 1rem;
       padding: 40px;
     }
   
@@ -4810,13 +4820,13 @@ right-container {
     }
   
     .section-tips p {
-      font-size: 16px;
+      font-size: 0.9rem;
       line-height: 18px;
       padding: 10px 30px;
     }
 
     .section-tips h3 {
-      font-size: 18px;
+      font-size: 1rem;
       line-height: 20px;
       padding: 10px 30px;
     }

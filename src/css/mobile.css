@@ -46,7 +46,7 @@
     }
   
     .section-main h1 {
-      font-size: 28px;
+      font-size: 1.5rem;
       max-width: 325px;
       left: 0;
       margin: 25px;
@@ -56,7 +56,7 @@
 
   
     .section-main p {
-      font-size: 18px;
+      font-size: 1rem;
       line-height: 20px;
       text-align: center;
       padding: 15px;
@@ -81,7 +81,7 @@
     }
 
     .booking-container h2 {
-      font-size: 24px;
+      font-size: 1.5rem;
     }
 
     .booking-container hr {
@@ -94,16 +94,17 @@
   
   
     .section-split p, .section-single p {
-      font-size: 18px;
+      font-size: 1rem;
       line-height: normal;
     }
   
     .section-split left-container p {
       padding: 40px;
+      font-size: 1.2rem;
     }
 
     .section-center-text p {
-      font-size: 16px;
+      font-size: 1rem;
       padding: 40px;
     }
   
@@ -113,13 +114,13 @@
     }
   
     .section-tips p {
-      font-size: 16px;
+      font-size: 0.9rem;
       line-height: 18px;
       padding: 10px 30px;
     }
 
     .section-tips h3 {
-      font-size: 18px;
+      font-size: 1rem;
       line-height: 20px;
       padding: 10px 30px;
     }
