@@ -143,6 +143,7 @@ right-container {
   left: 50px;
   top: 100px;
   max-width: 933px;
+  z-index: 100;
 }
 
 .section-main h1 .underline{
@@ -180,7 +181,9 @@ right-container {
   max-height: 500px;
 }
 
-
+.section-split {
+  min-height: 900px;
+}
 
 
 .section-split .p {
