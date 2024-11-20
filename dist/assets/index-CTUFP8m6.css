@@ -4054,7 +4054,7 @@ section.tag h1.category, section.search-results h1.category {
 footer {
   width: 100%;
   margin-top: 20px;
-  padding: 40px 0;
+  padding: 0;
   font-size: 14px;
   line-height: 1.2em;
   background: #121212;
