@@ -4536,6 +4536,10 @@ right-container {
   padding: 30px;
 }
 
+.section-single {
+  min-height: 900px;
+}
+
 .section-single section-inner-container {
   max-width: 700px;
 }
